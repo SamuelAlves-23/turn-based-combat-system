@@ -1,0 +1,18 @@
+[gd_scene load_steps=5 format=3 uid="uid://brlndjbaxh3be"]
+
+[ext_resource type="Script" uid="uid://dohjnralsnuid" path="res://scripts/battle/actor.gd" id="1_7wueq"]
+[ext_resource type="Script" uid="uid://h87v645cyejr" path="res://scripts/skills/skill.gd" id="2_oomub"]
+[ext_resource type="Resource" uid="uid://cmrqbipqc48i" path="res://data/basic_actions/attack.tres" id="3_8y416"]
+[ext_resource type="Resource" uid="uid://cxjxr2k3qfhds" path="res://data/basic_actions/defend.tres" id="4_7860b"]
+
+[node name="Player" type="Node"]
+script = ExtResource("1_7wueq")
+display_name = "Player"
+max_hp = 100
+hp = 100
+max_mp = 50
+mp = 50
+attack = 20
+defense = 10
+speed = 10
+basic_commands = Array[ExtResource("2_oomub")]([ExtResource("3_8y416"), ExtResource("4_7860b")])

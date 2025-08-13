@@ -1,0 +1,27 @@
+[gd_scene load_steps=2 format=3 uid="uid://ddedydynd6gxq"]
+
+[ext_resource type="Script" uid="uid://b08n6du2eostj" path="res://scripts/battle/battle_ui.gd" id="1_fyysl"]
+
+[node name="BattleUI" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_fyysl")
+
+[node name="HPBar" type="ProgressBar" parent="."]
+modulate = Color(0.930643, 0, 0.00641679, 1)
+layout_mode = 0
+offset_right = 189.0
+offset_bottom = 27.0
+value = 100.0
+
+[node name="MPBar" type="ProgressBar" parent="."]
+modulate = Color(0.254234, 4.08149e-05, 0.947819, 1)
+layout_mode = 0
+offset_top = 35.0
+offset_right = 189.0
+offset_bottom = 62.0
+value = 100.0

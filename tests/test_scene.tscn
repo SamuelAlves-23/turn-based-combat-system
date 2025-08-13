@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://bxisyld4u1vwk"]
+
+[ext_resource type="Script" uid="uid://py317e6dcquy" path="res://scripts/core/combat_scene.gd" id="1_34p8v"]
+[ext_resource type="PackedScene" uid="uid://buvxna6qulcua" path="res://scenes/managers/turn_manager.tscn" id="1_rtd5x"]
+[ext_resource type="PackedScene" uid="uid://brlndjbaxh3be" path="res://scenes/actors/player.tscn" id="2_34p8v"]
+
+[node name="TestScene" type="Node" node_paths=PackedStringArray("turn_manager")]
+script = ExtResource("1_34p8v")
+turn_manager = NodePath("TurnManager")
+
+[node name="TurnManager" parent="." instance=ExtResource("1_rtd5x")]
+
+[node name="Allies" type="Node" parent="."]
+
+[node name="Player" parent="Allies" instance=ExtResource("2_34p8v")]
+
+[node name="Enemies" type="Node" parent="."]
