@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="BasicDefend" load_steps=2 format=3 uid="uid://cxjxr2k3qfhds"]
+
+[ext_resource type="Script" uid="uid://bj3asnrpw8tvc" path="res://scripts/skills/basic_actions/basic_defend.gd" id="1_byv4g"]
+
+[resource]
+script = ExtResource("1_byv4g")
+display_name = "defend"
+action_id = "defend"
+pm_cost = 0
+cooldown = 0
+description = "Reduces 70% of damage taken this turn."
+metadata/_custom_type_script = "uid://bj3asnrpw8tvc"

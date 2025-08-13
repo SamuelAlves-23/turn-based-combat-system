@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="BasicAttack" load_steps=2 format=3 uid="uid://cmrqbipqc48i"]
+
+[ext_resource type="Script" uid="uid://cpsxsg8p502ct" path="res://scripts/skills/basic_actions/basic_attack.gd" id="1_mu384"]
+
+[resource]
+script = ExtResource("1_mu384")
+display_name = "attack"
+action_id = "attack"
+pm_cost = 0
+cooldown = 0
+description = "Basic attack with your weapon."
+metadata/_custom_type_script = "uid://cpsxsg8p502ct"

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Percentage_hp_loss" load_steps=2 format=3 uid="uid://c1lv1jswvuq2v"]
+
+[ext_resource type="Script" uid="uid://cwewlf6etq78w" path="res://scripts/statuses/hp_percentage_change.gd" id="1_wuypa"]
+
+[resource]
+script = ExtResource("1_wuypa")
+percentage = 3.0
+display_name = "light posion"
+status_id = "light_poison"
+description = "Low hp percentage damage."
+metadata/_custom_type_script = "uid://cwewlf6etq78w"
